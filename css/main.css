@@ -1,0 +1,90 @@
+* ::before,
+* ::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ui,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-weight: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open-Sans", sans-serif;
+  color: #303032;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  max-width: 1178px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "AvenirNextCyr";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/AvenirNextCyr-Demi.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Demi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AvenirNextCyr";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/AvenirNextCyr-Medium.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AvenirNextCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/AvenirNextCyr-Regular.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff");
+}
+
+.header h2 {
+  color: #303032;
+  font-size: 28px;
+}
